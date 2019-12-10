@@ -13,4 +13,14 @@ Akka.Cluster is a higher level view than Akka.Remote
 
 Seed nodes - the only thing special is that they know where the cluster is.
 
+## Demos
+You can instantiate actors as groups or pools.
+
+He's showing us some hocon configuration for Akka.NET
+
+ - Router
+
+
+The only thing he had to change was the config to make it fully distributed.
+
 
