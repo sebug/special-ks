@@ -42,6 +42,8 @@ Akka has a mechanism to remotely deploy actors. Or roll your own.
 
 For serialization you have to do your own versioning.
 
+Other option - plug in your own Serialization thing (by default it's just JSON.NET) to do some tolerant reader stuff.
+
 
 
 
