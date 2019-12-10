@@ -23,4 +23,11 @@ He's showing us some hocon configuration for Akka.NET
 
 The only thing he had to change was the config to make it fully distributed.
 
+Poor man's queue - add a persistent actor.
+
+Persistence - inherit from ReceivePersistentActor. It then lets you implement a Recover action.
+
+## Why Kafka
+Persisted log, you can replay from offset.
+
 
