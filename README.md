@@ -30,4 +30,18 @@ Persistence - inherit from ReceivePersistentActor. It then lets you implement a 
 ## Why Kafka
 Persisted log, you can replay from offset.
 
+The real example he had was SSIS sending messages.
+
+Easiest way to try out Kafka-like stuff - use Azure EventHubs supporting the
+Kafka protocol.
+
+## Questions
+Deployment - how do you do deployment when you have a new version?
+
+Akka has a mechanism to remotely deploy actors. Or roll your own.
+
+For serialization you have to do your own versioning.
+
+
+
 
